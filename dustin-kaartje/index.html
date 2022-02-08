@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Visitekaartje Dustin Schouten</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="../HTML/teampagina.html"><img class='terug_icon' src="terug_icon.png" alt="terug_icon"></a>
+      <div class="background_overlay"></div>
+      <img class='personal_image' src="personal_image.jpg" alt="personal_image">
+      <h1>Dustin Schouten</h1>
+      <ul class='buttons_list'>
+        <li><button onclick='showSection(0)'>Over mij</button></li>
+        <li><button onclick='showSection(1)'>Opleiding</button></li>
+        <li><button onclick='showSection(2)'>Vaardigheden</button></li>
+      </ul>
+      <section>
+        <h2>Over mij</h2>
+        <button class='button_terug' onclick='hideSection(0)'>&#129044;</button>
+        <article class='over_mij_article'>
+          <p>Ik ben Dustin Schouten, 20 jaar en studeer Informatica aan de Hogeschool Leiden. Van jongs af aan ben ik altijd al goed geweest in alles wat met cijfers en logica te maken had, zoals wiskunde, spelletjes en denkpuzzels. Doordat ik ook altijd nieuwschierig ben geweest in techniek, vond ik Informatica voor mij de ideale opleiding. Binnen de opleiding houd ik het meest van programmeren (in Python, HTML, CSS en JS) en binnen de specialisatie Business Data Management het meest van data-science. Ook in mijn vrije tijd houd ik er van om (naast voetballen) aan hobbyprojecten zoals websites, web apps en games te werken.</p>
+        </article>
+      </section>
+      <section>
+        <h2>Opleiding</h2>
+        <button class='button_terug' onclick='hideSection(1)'>&#129044;</button>
+        <article class='opleiding_article'>
+          <table>
+            <tr>
+              <td class='table_label'>Opleiding:</td><td>Informatica</td>
+            </tr>
+            <tr>
+              <td class='table_label'>Specialisatie:</td><td>Business Data Management</td>
+            </tr>
+            <tr>
+              <td class='table_label'>Leerjaar:</td><td>4</td>
+            </tr>
+            <tr>
+              <td class='table_label'>Periode:</td><td>september 2018 - heden</td>
+            </tr>
+            <tr>
+              <td class='table_label'>Vooropleiding:</td><td>HAVO (N&T)</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+      <section>
+        <h2>Vaardigheden</h2>
+        <button class='button_terug' onclick='hideSection(2)'>&#129044;</button>
+        <article class='vaardigheden_article'>
+          <ul>
+            <li><img src='html_logo_icon.png' alt='html'><p>HTML</p></li>
+            <li><img src='css_logo_icon.png' alt='css'><p>CSS</p></li>
+            <li><img src='js_logo_icon.png' alt='js'><p>JavaScript</p></li>
+            <li><img src='python_logo_icon.png' alt='python'><p>Python</p></li>
+            <li><img src='sql_logo_icon.png' alt='sql'><p>SQL</p></li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
